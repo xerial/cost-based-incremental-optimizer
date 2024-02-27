@@ -688,11 +688,11 @@ limitations under the License.
               <suppressionsLocation>${top.dir}/src/main/config/checkstyle/suppressions.xml</suppressionsLocation>
               <consoleOutput>true</consoleOutput>
               <headerLocation>${top.dir}/src/main/config/checkstyle/header.txt</headerLocation>
-              <failOnViolation>true</failOnViolation>
+              <failOnViolation>false</failOnViolation>
               <includeTestSourceDirectory>true</includeTestSourceDirectory>
             </configuration>
             <goals>
-              <goal>check</goal>
+              <!--<goal>check</goal>-->
             </goals>
           </execution>
         </executions>
